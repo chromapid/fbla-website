@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+header,footer {
+    flex: 0 0 auto;
+}
+
+main {
+    flex: 1 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    background-color: yellow;
+    align-self: center;
+}
+
+
+header {
+    background-color: white;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 1em;
+
+
+    display: flex;
+    flex-direction: row;
+}
+
+header h1 {
+    display: inline-block;
+    flex: 1 0 0;
+    color: gray;
+}
+
+h1,h2.h3,h4,h5,h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: lightgrey;
+}
