@@ -12,6 +12,7 @@ body {
 
 header,footer {
     flex: 0 0 auto;
+    max-width: 100%;
 }
 
 main {
@@ -26,9 +27,8 @@ main {
 header {
     background-color: white;
     margin: 0;
-    overflow: hidden;
+    overflow-y: hidden;
     width: 100%;
-    padding: 0 1em;
 
 
     display: flex;
@@ -36,8 +36,7 @@ header {
 }
 
 header h1 {
-    display: inline-block;
-    flex: 1 0 0;
+    flex: 1 1 0;
     color: gray;
 }
 
