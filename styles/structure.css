@@ -42,4 +42,5 @@ video.intro {
     align-items: center;
     overflow: hidden;
     justify-content: center;
+    text-align: center;
 }

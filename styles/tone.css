@@ -12,16 +12,29 @@ header {
     font-size: 2em;
 }
 
-header h2 {
-    color: white;
-    letter-spacing: 0.1em;
-    font-weight: lighter;
+
+@keyframes item-entrance {
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+    to {
+        opacity: 100;
+        transform: translateY(0);
+    }
 }
 
-header h1 {
-    letter-spacing: 0.15em;
+
+header h1, header h2 {
     color: white;
+    letter-spacing: 0.2em;
     font-weight: lighter;
+    background-color: #20202060;
+    margin: 0.2em;
+    padding: 0.3em 0.5em;
+    border-radius: 0.5em;
+    animation: item-entrance 2s ease-out;
+    opacity: 1;
 }
 
 footer {
