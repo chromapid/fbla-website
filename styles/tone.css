@@ -14,8 +14,14 @@ header {
     font-size: 2em;
 }
 
+header h2 {
+    letter-spacing: ;
+}
+
 header h1 {
-    color: green;
+    letter-spacing: 0.12em;
+    color: white;
+    font-weight: lighter;
 }
 
 footer {
