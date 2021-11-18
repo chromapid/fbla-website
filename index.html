@@ -11,23 +11,45 @@
         <script src="https://kit.fontawesome.com/7ce960fd0f.js" crossorigin="anonymous"></script>
         <!--thanks font awesome for these beautiful icons-->
         <title>Polaris Epsilon</title>
+
+        
+
     </head>
     <body>
-        <div class="header">
-            <video class="intro" autoplay muted controls>
-            <source src="video/background_Trim.mp4" type="video/mp4">
-            </video>
-          <script>
-            var myVideo = document.getElementById("theme");
       
-            function playPause() {
-              if (myVideo.paused)
-                myVideo.play();
-              else
-                myVideo.pause();
-            }
-          </script>
-        </div>
+        <header>
+          <div class="header-content-wrapper" id="video-intro-wrapper">
+            <video id="intro-video" autoplay muted loop>
+              <source src="video/header.mp4" type="video/mp4;">
+            </video>
+            
+            <script>
+              {
+                var videoElement = document.getElementById("intro-video");
+                var videoWrapper = document.getElementById("video-intro-wrapper");
+                window.addEventListener("resize", function() {
+                  var vwidth = videoElement.videoWidth;
+                  var vheight = videoElement.videoHeight;
+                  var vaspect = vheight / vwidth;
+
+                  if (videoWrapper.clientHeight * vwidth < videoWrapper.clientWidth * vheight) {
+                    videoElement.style.width = "100%";
+                    videoElement.style.height = null;
+                  }
+                  else {
+                    videoElement.style.height = "100%";
+                    videoElement.style.width = null;
+                  }
+                });
+              }
+            </script>
+          </div>
+          <div class="header-content-wrapper">
+            
+            <h1>Polaris Epsilon</h1>
+            <h2>Astronomy Tours</h2>
+          </div>
+        </header>
         <nav>
             <!--start of navbar-->
             <div class="navbar">
