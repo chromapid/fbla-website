@@ -32,18 +32,3 @@ header {
     align-items: center;
     padding: 2em, 0;
 }
-.home-link {
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-header h1,header h2 {
-    display: inline-block;
-    margin: 0;
-}
-header img {
-    flex: 0 0 content;
-    height: 1.5em;
-    margin: 0 1em;
-}
