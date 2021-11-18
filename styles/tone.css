@@ -9,16 +9,17 @@ h1,h2,h3,h4,h5,h6 {
 header {
     background-color: black;
     height: 100vh;
-    font-size: 2;
+    font-size: 2em;
 }
 
 header h2 {
-    color: lightgrey;
-    letter-spacing: 0.08m;
+    color: white;
+    letter-spacing: 0.1em;
+    font-weight: lighter;
 }
 
 header h1 {
-    letter-spacing: 0.12em;
+    letter-spacing: 0.15em;
     color: white;
     font-weight: lighter;
 }
