@@ -5,32 +5,33 @@ html, body {
 }
 
 body {
-    
     display: flex;
     flex-direction: column;
 }
 
-header,footer {
+.header,footer {
     flex: 0 0 auto;
     max-width: 100%;
 }
 
 main {
     flex: 1 0 auto;
-    max-width: 1200px;
-    width: 100%;
+    width: 100vw;
     align-self: center;
 }
 
 
-header {
-    margin: 0;
+.header {
+    margin-bottom: -.5vh;
     padding: 0;
     width: 100%;
+    height: auto;
 }
 
 video.intro {
-    height: 100%;
+    width: 100vw;
+    height: auto;
+    margin: auto;
 }
 
 .header-content-wrapper {
