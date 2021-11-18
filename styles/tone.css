@@ -15,7 +15,8 @@ header {
 }
 
 header h2 {
-    letter-spacing: ;
+    color: lightgrey;
+    letter-spacing: 0.08m;
 }
 
 header h1 {
