@@ -41,6 +41,7 @@ polaris epsilon
 desc: Astronomy tours
 
 References for our page
-link1
-link2
-link3 ect.
+https://www.junghoe.com/
+https://www.apple.com/?afid=p238%7CseIEs444j-dc_mtid_1870765e38482_pcrid_558798674159_pgrid_13945964887_&cid=aos-us-kwgo-brand-apple--slid---product-
+https://www.chiaraluzzana.com/
+https://the-goonies.webflow.io/
