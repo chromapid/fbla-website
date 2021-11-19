@@ -25,9 +25,10 @@
             
             <script>
               {
+                
                 var videoElement = document.getElementById("intro-video");
                 var videoWrapper = document.getElementById("video-intro-wrapper");
-                window.addEventListener("resize", function() {
+                function adjustVideoElement() {
                   var vwidth = videoElement.videoWidth;
                   var vheight = videoElement.videoHeight;
                   var vaspect = vheight / vwidth;
@@ -40,7 +41,9 @@
                     videoElement.style.height = "100%";
                     videoElement.style.width = null;
                   }
-                });
+                }
+                window.addEventListener("resize", adjustVideoElement);
+                adjustVideoElement();
               }
             </script>
           </div>
