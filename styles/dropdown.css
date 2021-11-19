@@ -47,6 +47,10 @@
     color: black;
     display: block !important;
   }
+
+  .navspace>.img {
+    display: none;
+  }
 }
 
 .navspace > .img {
