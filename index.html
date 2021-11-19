@@ -33,7 +33,6 @@
                   var vwidth = videoElement.videoWidth;
                   var vheight = videoElement.videoHeight;
                   var vaspect = vheight / vwidth;
-
                   if (videoWrapper.clientHeight * vwidth < videoWrapper.clientWidth * vheight) {
                     videoElement.style.width = "100%";
                     videoElement.style.height = null;
@@ -44,7 +43,7 @@
                   }
                 }
                 window.addEventListener("resize", adjustVideoElement);
-                adjustVideoElement();
+                videoElement.addEventListener("loadedmetadata", adjustVideoElement);
               }
             </script>
           </div>
