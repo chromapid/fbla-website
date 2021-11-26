@@ -1,56 +1,123 @@
-@media only screen and (min-width: 864px) {
-
-  .links {
-    margin-bottom: 10px;
+@media only screen and (min-width: 700px) {
+  nav>.content .group {
+    display: flex;
+    height: 100%;
   }
 
-  .dropdown {
-    margin-right: 90px;
-    text-align: left;
-  }
-}
-
-@media only screen and (max-width: 864px) {
-
-  .links {
-    flex-direction: column;
-    height: 300px;
-    margin-bottom: 220px;
-  }
-
-  .links>.navspace>a {
-    width: fit-content;
-    margin: auto;
-  }
-
-  .dropdown-content {
-    width: 210px;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-
-  .dropdown-content a {
-    text-align: center;
-  }
-
-  .dropdown {
-    margin: auto;
-  }
-
-  .dropdown-content a {
-    display: none !important;
-  }
-
-  .dropdown:hover .dropdown-content a {
-    color: black;
-    display: block !important;
-  }
-
-  .navspace>.img {
+  nav>.content .group>.grouplabel {
     display: none;
   }
+
+  nav>.content .group>.groupcontent {
+    flex-direction: row;
+  }
+
+  nav>.content .groupcontent a {
+    transition: border 0.2s;
+    border-bottom: 0 solid;
+    padding: 0.3em, 0;
+  }
+
+  nav>.content .groupcontent a:hover {
+    border-bottom: 0.2em solid;
+  }
 }
+
+
+@media only screen and (max-width: 700px) {
+
+  nav>.content {
+    width: 100%;
+    justify-items: right;
+  }
+
+
+  nav>.content .group>.grouplabel {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav>.content .group>.groupcontent {
+    display: block;
+    visibility: hidden;
+    flex-direction: column;
+
+    position: absolute;
+    top: 100%;
+
+    color: black;
+    background-color: #EEEEEE;
+    text-align: left;
+    border-radius: 0 0 0.3em 0.3em;
+    align-self: flex-start;
+    
+    transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
+    transform: translateY(4em);
+    opacity: 0;
+  }
+
+  nav>.content .groupcontent .item {
+    padding: 0.5em;
+  }
+
+  nav>.content .groupcontent .item~.item {
+    border-top: solid 1px black;
+  }
+
+  nav>.content .group:hover>.groupcontent {
+    visibility: visible;
+    transform: translateY(0em);
+    opacity: 100;
+  }
+
+  nav>.content .groupcontent a {
+    transition: color 0.2s;
+    color: black;
+  }
+  nav>.content .groupcontent a:hover {
+    color: #525252;
+  }
+}
+
+
+nav>.content {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+nav>.content, nav>.content .groupcontent {
+  display: flex;
+  align-items: center;
+}
+
+nav>.content .item {
+  display: block;
+}
+
+
+nav>.content .grouplabel {
+  margin: 0 1em;
+}
+
+nav>.content .item {
+  margin: 0 1em;
+  display: flex;
+  align-items: center;
+}
+
+nav>.content .group>.grouplabel i {
+  margin: 0 0.3em;
+}
+
+nav>.content .group {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
 
 .navspace > .img {
   border-color: transparent !important;

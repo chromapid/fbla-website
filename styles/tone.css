@@ -44,3 +44,14 @@ footer {
 .navbar {
     background-color: black;
 }
+
+nav {
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
