@@ -107,10 +107,6 @@ nav>.content {
 
 
 
-nav>.content .navgroup.primary {
-  flex: 1 0;
-}
-
 nav>.content, nav>.content .groupcontent {
   display: flex;
   align-items: center;

@@ -10,7 +10,6 @@ header,footer {
 
 main {
     max-width: 1100px;
-    height: 200vh;
     margin: 0 auto;
     overflow-y: hidden;
 }
