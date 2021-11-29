@@ -1,16 +1,18 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #fcfcff;
 }
 
 header,footer {
     max-width: 100%;
 }
 
-
 main {
-    width: 100%;
+    max-width: 1100px;
     height: 200vh;
+    margin: 0 auto;
+    overflow-y: hidden;
 }
 
 
@@ -19,8 +21,6 @@ header {
     padding: 0;
     width: 100%;
 }
-
-
 
 .header-content-wrapper {
     position: absolute;

@@ -1,0 +1,28 @@
+/* content.css - Styles for the main page content */
+
+
+p {
+    text-indent: 1.5em;
+}
+
+main .contentcard {
+    border-radius: 2em;
+    border: 3px outset;
+    overflow-y: hidden;
+    padding: 0 1em;
+    margin: 2em;
+}
+
+main .contentcard.cool {
+    background-color: white;
+    border-color: #dddddd;
+}
+
+main .contentcard.focus {
+    background-color: white;
+    border-color: #dddddd;
+}
+
+main .contentcard.full {
+    width: 100%;
+}

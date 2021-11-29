@@ -1,6 +1,7 @@
 body {
     font-size: 5mm;
     margin: 0px;
+    
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -9,7 +10,17 @@ h1,h2,h3,h4,h5,h6 {
 
 header {
     background-color: black;
-    font-size: 2em;
+}
+
+@media (min-width: 400px) {
+    header {
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 399px) {
+    header {
+        font-size: 6vw;
+    }
 }
 
 
@@ -39,10 +50,13 @@ header h1, header h2 {
 
 footer {
     background-color: lightgrey;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 0.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+main {
+    font-family: 'Raleway', sans-serif;
+}
 
 nav {
     background-color: #222222;
