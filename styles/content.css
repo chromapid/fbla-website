@@ -1,26 +1,36 @@
 /* content.css - Styles for the main page content */
 
 
-p {
-    text-indent: 1.5em;
-}
-
 main .contentcard {
-    border-radius: 2em;
-    border: 3px outset;
+    border-radius: 1.6em;
     overflow-y: hidden;
-    padding: 0 1em;
-    margin: 2em;
+    padding: 0 1.5em;
+    margin: 1.1em;
+    box-shadow: 0.05em 0.3em 0.3em 0 #00000033;
+    transition: all 0.2s;
+    background-color: white;
 }
 
-main .contentcard.cool {
-    background-color: white;
-    border-color: #dddddd;
+main .contentcard p {
+    line-height: 1.5em;
+    letter-spacing: 0.03em;
+    margin: 1.6em 0;
 }
+
+main .contentcard:hover {
+    box-shadow: 0.05em 0.4em 0.3em 0 #00000033;
+}
+
+
+main .splitcontainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row wrap;
+}
+
 
 main .contentcard.focus {
-    background-color: white;
-    border-color: #dddddd;
+    background-color: #fffffd;
 }
 
 main .contentcard.full {
