@@ -25,7 +25,12 @@ main .contentcard:hover {
 main .splitcontainer {
     display: flex;
     width: 100%;
-    flex-direction: row wrap;
+    flex-flow: row wrap;
+}
+
+main .splitcontainer>div {
+    flex: 1 1;
+    min-width: 150px;
 }
 
 
