@@ -59,10 +59,10 @@ main {
 }
 
 nav {
-    background-color: #222222;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
+    background: linear-gradient(0deg,#222222, black);
 }
 
 nav a {

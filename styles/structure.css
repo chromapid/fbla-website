@@ -8,6 +8,10 @@ header,footer {
 }
 
 main {
+    min-height: 100vh;
+}
+
+main, footer>.content {
     max-width: 1100px;
     margin: 0 auto;
     overflow-y: hidden;
@@ -40,13 +44,16 @@ nav {
     height: 3em;
 }
 
-footer {
-    padding: 0.5em 3em;
-}
-
 footer>.content {
+    padding: 0.5em 3em;
     display: flex;
-    flex-direction: row wrap;
+    flex-flow: row wrap;
     justify-content: left;
     justify-items: left;
+}
+
+footer>.content>* {
+    margin: 1em;
+    min-width: 10em;
+    max-width: 20em;
 }

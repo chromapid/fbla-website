@@ -30,7 +30,7 @@ main .splitcontainer {
 
 main .splitcontainer>div {
     flex: 1 1;
-    min-width: 200px;
+    min-width: 10em;
 }
 
 
@@ -40,4 +40,21 @@ main .contentcard.focus {
 
 main .contentcard.full {
     width: 100%;
+}
+
+main a {
+    color: black;
+}
+
+main a:hover {
+    color: #333333;
+}
+
+
+table {
+    margin: 1.5em
+}
+
+td, th {
+    padding: 0.3em;
 }
