@@ -89,17 +89,12 @@
 
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
 nav>.content {
   height: 100%;
   flex: 1 0;
   max-width: 1100px;
-  margin: 0 2em;
+  margin: 0 auto;
   text-align: center;
   justify-content: stretch;
   flex-direction: row;
