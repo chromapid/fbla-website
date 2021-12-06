@@ -42,6 +42,12 @@ main .contentcard.full {
     width: 100%;
 }
 
+main .contentcard.image {
+    flex: 0 0 auto;
+    padding: 1.5em;
+}
+
+
 main a {
     color: black;
 }
