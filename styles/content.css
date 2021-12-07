@@ -26,6 +26,7 @@ main .splitcontainer {
     display: flex;
     width: 100%;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 main .splitcontainer>div {
@@ -44,9 +45,27 @@ main .contentcard.full {
 
 main .contentcard.image {
     flex: 0 0 auto;
-    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+main .contentcard.image img {
+    margin: 1.5em;
 }
 
+@media (max-width: 800px) {
+    main .contentcard.optional {
+        display: none;
+    }
+}
+
+
+main .contentcard.image .caption {
+    margin-bottom: 1.5em;
+    overflow-wrap: break-word;
+    color: #333333;
+}
 
 main a {
     color: black;
