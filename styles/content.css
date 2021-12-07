@@ -83,3 +83,10 @@ table {
 td, th {
     padding: 0.3em;
 }
+
+iframe.calendar {
+    border-radius: 1em;
+    padding: 0.5em;
+    margin: 0 auto;
+    display: block;
+}
