@@ -1,7 +1,8 @@
 body {
     font-size: 5mm;
     margin: 0px;
-    background-color: #fbfbff;
+    background-image: url("../images/back.png");
+    background-repeat: repeat;
 }
 
 h1,h2,h3,h4,h5,h6 {
