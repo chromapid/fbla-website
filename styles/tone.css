@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 header {
-    background-color: black;
+    border-bottom: 2px solid #E4EAFF;
 }
 
 @media (min-width: 400px) {
@@ -51,20 +51,24 @@ header h1, header h2 {
 }
 
 footer {
-    background-color: lightgrey;
+    background: linear-gradient(0deg, white, #F1E3FF);
+    word-spacing: 0.07em;
     font-size: 0.8em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top: 2px solid #E4EAFF;
 }
 
 main {
     font-family: 'Raleway', sans-serif;
+    
+
 }
 
 nav {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
-    background: linear-gradient(0deg,#222222, black);
+    background: linear-gradient(0deg, #130024, black);
 }
 
 nav a {

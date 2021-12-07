@@ -6,7 +6,7 @@ main .contentcard {
     overflow-y: hidden;
     padding: 0 1.5em;
     margin: 1.1em;
-    box-shadow: 0.05em 0.3em 0.3em 0 #00000033;
+    box-shadow: 0 0 1em 0.1em #00000033;
     transition: all 0.2s;
     background-color: white;
 }
@@ -14,11 +14,11 @@ main .contentcard {
 main .contentcard p {
     line-height: 1.5em;
     letter-spacing: 0.03em;
-    margin: 1.6em 0;
+    margin: 1.5em 0;
 }
 
 main .contentcard:hover {
-    box-shadow: 0.05em 0.4em 0.3em 0 #00000033;
+    box-shadow: 0 0 1em 0.125em #00000033;
 }
 
 
@@ -65,15 +65,27 @@ main .contentcard.image img {
 main .contentcard.image .caption {
     margin-bottom: 1.5em;
     overflow-wrap: break-word;
-    color: #333333;
+    color: #002416;
 }
 
 main a {
-    color: black;
+    color: #1F3A92;
+    
+    transition: all 0.3s;
 }
 
 main a:hover {
-    color: #333333;
+    color: #667BBE;
+}
+
+main a.button {
+    padding: 0.3em;
+    display: block;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 0.4em;
+    float: right;
+    margin: 1.5em 0;
 }
 
 
