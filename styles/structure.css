@@ -5,10 +5,12 @@ html, body {
 
 header,footer {
     max-width: 100%;
+    display: block;
 }
 
 main {
     min-height: 100vh;
+    display: block;
 }
 
 main, footer>.content {
@@ -23,6 +25,7 @@ header {
     padding: 0;
     width: 100%;
     position: relative;
+    background-color: black;
 }
 
 header .header-content-wrapper {
