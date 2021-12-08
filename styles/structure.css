@@ -40,10 +40,10 @@ header .header-content-wrapper {
     text-align: center;
 }
 
-header .header-content-wrapper .caption {
-    position: absolute;
-    right: 1em;
-    bottom: 1em;
+header .header-content-wrapper.caption {
+    align-items: flex-end;
+    justify-content: flex-end;
+
 }
 
 nav {

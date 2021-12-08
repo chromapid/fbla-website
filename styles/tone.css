@@ -38,7 +38,7 @@ header {
 }
 
 
-header h1, header h2, header span.caption {
+header h1, header h2, header .header-content-wrapper.caption span {
     color: white;
     letter-spacing: 0.2em;
     font-weight: 300;
@@ -50,17 +50,17 @@ header h1, header h2, header span.caption {
     opacity: 1;
 }
 
-header span.caption {
-    font-size: 0.5em;
+header .header-content-wrapper.caption span {
+    font-size: 0.4em;
     font-family: 'Raleway', sans-serif;
     color: white;
 }
 
-header span.caption a {
+header .header-content-wrapper.caption span a {
     color: white;
     transition: color 0.5s;
 }
-header span.caption a:hover {
+header .header-content-wrapper.caption span a:hover {
     color: lightgray;
 }
 
